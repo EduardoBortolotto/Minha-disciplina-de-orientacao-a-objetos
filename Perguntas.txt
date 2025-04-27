@@ -1,0 +1,41 @@
+1.Explique os seguintes conceitos de POO em Java
+
+a) Classe
+Em orientação a objetos uma classe é uma estrutura que abstrai um conjunto de objetos com caracteristicas similares, a classe descreve as características e funcionalidades do objeto.
+
+b)Objeto
+Ocorrência específica de uma classe "instância de classe", tem características próprias (atributos) e executa ações (métodos), provenientes da classe que originou o objeto.
+
+c)Atributo
+Característica ou informação que é associada a um objeto ou a uma classe, representam o estado de um objeto.
+Existem dois tipos principais de atributos
+Dinâmicos: Eles são definidos dentro da classe e pertencem a cada instância (objeto) da classe.
+Estáticos: são atributos que pertencem a classe e não as instâncias.
+
+d)Método
+Função ou procedimento que está associado a uma classe ou objeto, ele define uma ação que um objeto pode executar, os métodos podem manipular os atributos e realizar operações sobre os dados.
+
+e)Encapsulamento
+Encapsulamento é a prática de esconder os detalhes internos de uma classe e fornecer uma interface controlada para que o usuário interaja com os objetos dessa classe, 
+objetivo do encapsulamento é proteger os dados e garantir que o estado do objeto só possa ser alterado de maneira controlada.
+
+
+2. O que são modificadores de acesso em Java? Cite e explique brevemente os principais.
+
+Os modificadores de acesso em Java são palavras-chave usadas para especificar a visibilidade e o nível de acesso a classes, métodos, atributos e construtores.
+Public:
+O membro é acessível de qualquer lugar no código.
+Private:
+O membro é acessível apenas dentro da própria classe. Isso significa que não pode ser acessado de fora da classe, nem mesmo por classes do mesmo pacote.
+Protected:
+O membro é acessível dentro da própria classe, dentro do mesmo pacote, e também por subclasses, mesmo que estejam em pacotes diferentes.
+Default:
+Se nenhum modificador de acesso for especificado, o membro será acessível apenas dentro do mesmo pacote.
+
+
+3.  Explique o que é e para que serve o método toString() em uma classe.
+
+Em Java, o método toString() é um método definido na classe Object (a superclasse de todas as classes em Java). 
+Esse método é usado para retornar uma representação em forma de string de um objeto. Quando você chama toString()
+ em um objeto, o Java, por padrão, chama o método toString() da classe Object, mas esse comportamento pode ser 
+ sobrescrito nas classes que você cria.
