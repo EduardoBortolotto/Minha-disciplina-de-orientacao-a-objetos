@@ -1,6 +1,6 @@
 public class Produto {
 
-	//Atributos privados
+    //Atributos privados
     private String nome;
     private double preco;
     private int quantidadeEstoque;
